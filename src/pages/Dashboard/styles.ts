@@ -15,7 +15,6 @@ export const Title = styled.h1`
 
 export const Form = styled.form<FormProps>`
   margin-top: 40px;
-  max-width: 750px;
   display: flex;
 
   input {
@@ -61,7 +60,7 @@ export const Form = styled.form<FormProps>`
 
 export const Repositories = styled.div`
   margin-top: 60px;
-  max-width: 750px;
+  /* max-width: 750px; */
 
   a {
     background: #333;
